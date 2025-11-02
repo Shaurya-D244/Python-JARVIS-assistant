@@ -7,8 +7,8 @@ import time
 import json
 
 # --- Configuration ---
-NEWS_API_KEY = "47686f9ba06c41768d9e5904176ae998"
-OPENROUTER_KEY = "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"
+NEWS_API_KEY = "NEWS_API"  # You can search News API on your web browser
+OPENROUTER_KEY = "API_KEY" # You can use OpenAI
 
 
 # --- Functions ---
@@ -120,4 +120,5 @@ if __name__ == "__main__":
             continue
         except Exception as e:
             print("Error:", e)
+
             continue
