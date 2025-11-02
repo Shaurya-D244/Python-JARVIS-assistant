@@ -7,8 +7,8 @@ import time
 import openai
 
 recognizer = sr.Recognizer()
-newsapi = "47686f9ba06c41768d9e5904176ae998"
-# API_KEY = "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"
+newsapi = "NEWS_API"
+# API_KEY = "API_KEY"
 openai.base_url = "https://openrouter.ai/api/v1"
 
 def speak(text):
@@ -102,3 +102,4 @@ if __name__ == "__main__":
         except Exception as e:
             print("Error:", e)
             continue
+
